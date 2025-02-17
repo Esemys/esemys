@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fa-solid{
+    cursor: pointer;
+}
+.fa-uncharted{
+    display: flex;
+    align-items: center;
+}
+
+.svg{
+    height: 2em;
+    cursor: pointer;
+}
+
+.hero-image{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    object-position: center;
+    align-self: center;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(20, 20, 83);
+    background-color: aliceblue;
+    
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 1em;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.large-screen{
+    display: flex;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    margin: 0 1em;
+    gap: 2em;
+    cursor: pointer;
+}
+
+.logo{
+    font-size: x-large;
+}
+
+.head-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.hero{
+    margin: 3em 1em;
+}
+header{
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    margin-top: 3em;
+    font-size: 1em;
+ 
+}
+header span{
+    color: rgb(58, 90, 80);
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-bottom: 0.2em;
+    text-decoration: wavy;
+    font-family:  Arial, sans-serif;
+    text-transform: capitalize;
+}
+header p{
+    
+    margin-top: 1em;
+    line-height: 1.5em;
+    gap: 1em;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    text-transform: capitalize;
+}
+
+.cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin: 2em;
+    
+}
+.cta button{
+    padding: 1em;
+    border-radius: 9px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: large;
+}
+.cta button:nth-child(1){
+    color: azure;
+    background-color: rgb(114, 99, 180);
+}
+.cta button:hover{
+    color: azure;
+    background-color: rgb(58, 90, 80);
+    transition: ease-out 1s;
+ }
+ .text{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(142, 158, 153);
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    font-size:x-large;
+ }
+ .text-container p{
+    font-weight: lighter;
+    font-size: large;
+    line-height: 2em;
+ }
+ .text-container span{
+    color: rgb(114, 99, 180);
+ }
+ .guide{
+    margin: 1em 2em;
+    
+ }
+ .guide .small-screen-guide{
+    display: none;
+ }
+ .large-screen-guide{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+ }
+ .large-screen-guide .image-guide{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+ }
+ .guide h2{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 0.7em;
+    text-decoration: underline;
+ }
+ .guide ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+ }
+ .guide ul li{
+    font-size: larger;
+    font-weight: 300;
+    list-style-type: square;
+    text-transform: capitalize;
+    font-family: lato;
+    line-height: 2.3em;
+ }
+ .guide ul li a{
+    color: rgb(114, 99, 180);
+    text-decoration: underline;
+    cursor: pointer;
+ }
+
+ .service-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    margin: 1em 2em;
+ }
+ .service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+    padding: 2em;
+    background-color: rgb(142, 158, 153);
+    border-radius: 9px;
+    line-height: 1.7em;
+ }
+ .service h4{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: capitalize;
+ }
+ .service-container .service p{
+    font-size: large;
+    font-weight: 300;
+    line-height: 1.7em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: lato;
+ 
+ }
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(142, 158, 153);
+    padding: 1em;
+    margin-top: 1em;
+    gap: 3em;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social a{
+    margin: 0.5em;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    flex-direction: column;
+    font-weight: bolder;
+    font-size: large;
+    text-transform: capitalize;
+}
+.details li {
+    list-style: none;
+    cursor: pointer;
+}
+.details a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.about-us {
+    display: none;
+    position: fixed;
+    bottom: 0.1em;
+    min-height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.2em;
+    background-color: rgb(240, 248, 255);
+    border-radius: 10px;
+    margin: 0.1em 0;
+    font-family: 'Arial', sans-serif;
+    color: rgb(20, 20, 83);
+}
+.about-us div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    cursor: pointer;
+}
+.about-us h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
+.about-us p {
+    font-size: 1em;
+    line-height: 1.6em;
+    margin-bottom: 1em;
+}
+.wrapper{
+    position: relative;
+    height: 100px;
+    overflow: scroll;
+}
+.privacy-policy, .terms {
+    display: flex;
+    top: 0;
+    left: 0;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    background-color: rgb(240, 248, 255);
+    border-radius: 10px;
+    font-family: lato, sans-serif;
+    color: rgb(20, 20, 83);
+}
+.privacy-policy div, .terms div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    cursor: pointer;
+}
+.privacy-policy h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.privacy-policy p {
+    font-size: 1em;
+    line-height: 1.3em;
+    margin-bottom: 1em;
+}
+.order-form, .questionnaire-form {
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    background-color: rgb(240, 248, 255);
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+    color: rgb(20, 20, 83);
+    gap: 1em;
+}
+
+.order-form input, .order-form select, .order-form textarea, .questionnaire-form input, .questionnaire-form select, .questionnaire-form textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid rgb(142, 158, 153);
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.order-form button, .questionnaire-form button {
+    padding: 1em;
+    border-radius: 5px;
+    background-color: rgb(114, 99, 180);
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.order-form button:hover {
+    background-color: rgb(58, 90, 80);
+    transition: background-color 0.3s ease;
+}
+@media only screen and (min-width: 99px) {
+    .small-screen{
+        display: none;
+    } 
+}
+ @media only screen and (max-width: 768px ){
+    .large-screen{
+        display: none;
+    }
+    .small-screen{
+        display: flex;
+    }
+    .head-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .text{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .guide ul li{
+        line-height: 1.6em;
+    }
+    .guide .large-screen-guide{
+        display: none;
+    }
+    .guide .small-screen-guide{
+        display: flex;
+        align-items: center;
+    }
+    .service-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1em;
+        margin: 1em 2em;
+    }
+}
