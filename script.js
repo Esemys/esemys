@@ -37,4 +37,4 @@ function hideBar() {
     hidebar.style.display = 'none';
 }
 
-alert("UNDER DEVELOPMENT") 
+alert("THIS SITE IS SITLL UNDER DEVELOPMENT") 
