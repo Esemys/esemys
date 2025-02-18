@@ -355,11 +355,6 @@ header p{
     background-color: rgb(58, 90, 80);
     transition: background-color 0.3s ease;
 }
-@media only screen and (min-width: 99px) {
-    .small-screen{
-        display: none;
-    } 
-}
  @media only screen and (max-width: 768px ){
     .large-screen{
         display: none;
