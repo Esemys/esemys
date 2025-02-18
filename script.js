@@ -36,3 +36,5 @@ function hideBar() {
     const hidebar = document.querySelector('.sidebar');
     hidebar.style.display = 'none';
 }
+
+alert("UNDER DEVELOPMENT") 
